@@ -19,14 +19,14 @@ const ChannelBar = () => {
     )
 }
 
-const ChannelBlock = () => {
+const ChannelBlock = () => (
     <div className='channel-block'>
         <h5 className='channel-block-text'>Channels</h5>
     </div>
-}
+)
 
 const Dropdown = ({ header, selections }) => {
-    const [expanded, setExpanded] = useState(true)
+    const [expanded, setExpanded] = useState(false)
 
     return (
         <div className='dropdown'>
@@ -55,11 +55,11 @@ const ChevronIcon = ({ expanded }) => {
     )
 }
 
-const TopicSelection = ({ selection }) => {
+const TopicSelection = ({ selection }) => (
     <div className='dropdown-selection'>
         <BsHash size='24' className='text-gray-400' />
         <h5 className='dropdown-selection-text'>{selection}</h5>
     </div>
-}
+)
 
 export default ChannelBar
