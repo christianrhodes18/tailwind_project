@@ -8,6 +8,8 @@ const SideBar = () => {
             <SideBarIcon icon={<FaEnvira size="28" />} />
             <SideBarIcon icon={<FaFortAwesomeAlt size="28" />} />
             <SideBarIcon icon={<FaGrav size="28" />} />
+            <Divider />
+            <SideBarIcon icon={<FaFire size='28' />} />
         </div>
     )
 }
@@ -21,5 +23,7 @@ const SideBarIcon = ({ icon, text = 'tooltip' }) => (
         </span>
     </div>
 )
+
+const Divider = () => <hr className='sidebar-hr' />
 
 export default SideBar
