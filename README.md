@@ -8,4 +8,5 @@ This project was a good exercise for learning various Front End technologies.
 * React.js
 * TailwindCSS
 
+#### Sample
 ![Sample](./tailwind_project_sample.png)
